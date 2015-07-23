@@ -16,22 +16,22 @@ public class Entrada {
 		return buzon;
 	}
 
-	static int entero() {
+	public static int entero() {
 		int valor = Integer.parseInt(inicializar());
 		return valor;
 	}
 
-	static double real() {
+	public static double real() {
 		double valor = Double.parseDouble(inicializar());
 		return valor;
 	}
 
-	static String cadena() {
+	public static String cadena() {
 		String valor = inicializar();
 		return valor;
 	}
 
-	static char caracter() {
+	public static char caracter() {
 		String valor = inicializar();
 		return valor.charAt(0);
 	}
