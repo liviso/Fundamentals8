@@ -9,7 +9,7 @@ public class ArrayExplicito {
     
     public static void main (String []args){
          double d[]= new double[5];
-         double promedio=0.0;
+         double promedio=5;
          for(int i=0; i<d.length;i++){
              d[i]=i;
               promedio=promedio+d[i];

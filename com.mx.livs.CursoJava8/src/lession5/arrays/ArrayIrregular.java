@@ -34,3 +34,11 @@ public class ArrayIrregular {
         
     }
 }
+
+
+
+
+
+
+
+
