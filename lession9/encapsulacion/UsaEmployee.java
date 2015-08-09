@@ -9,7 +9,7 @@ public class UsaEmployee {
         System.out.println("Su RFC es: " + ramon.getRfc());
 
         ramon.calcularSalarioNeto();
-        System.out.println("El salario del que usted dispones para gastar es: "
+        System.out.println("El salario del que usted dispone para gastar es: "
                 + ramon.getSalario());
 
         Employee rosa = new Employee();
@@ -20,7 +20,7 @@ public class UsaEmployee {
         System.out.println("Nombre empleado: " + rosa.getNombre());
         System.out.println("Su salario es: " + rosa.getSalario());
         rosa.calcularSalarioNeto(rosa.getSalario());
-        System.out.println("El salario del que usted dispones para gastar es:"
+        System.out.println("El salario del que usted dispone para gastar es:"
                 + rosa.getSalario());
     }
 }
