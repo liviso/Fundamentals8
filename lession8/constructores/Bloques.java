@@ -1,6 +1,3 @@
-
-package lession8.statics;
-
 class Bloques{
 /**
 	Los bloques estáticos son bloques que se ejecutan al momento en que se carga 
@@ -21,10 +18,10 @@ class Bloques{
 **/
 	
 	{
-		System.out.println("Soy un bloque anonimo  !");
+		System.out.println("Soy un bloque anonimo como ves !");
 	}
 	{
-		System.out.println("Yo también  !");
+		System.out.println("Yo también como ves !");
 	}
 
 	public static void main(String args[]){
