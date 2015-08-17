@@ -9,16 +9,6 @@ public class Juego {
     private Equipo equipoFuera;
     private Gol[] goles;
     
-    public void playGame(int maxGoals) {
-        Gol[] theGoals = new Gol[maxGoals];
-        this.setGoles(theGoals);      
-    }
-    
-    public void playGame() {
-       
-    }
-    
-    
 
     public Equipo getEquipoLocal() {
         return equipoLocal;
