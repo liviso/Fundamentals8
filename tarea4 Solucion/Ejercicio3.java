@@ -2,6 +2,7 @@ package tarea4;
 
 import util.Entrada;
 
+
 public class Ejercicio3 {
 
     public void mostrarEscalera() {
